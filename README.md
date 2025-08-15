@@ -1,72 +1,86 @@
-https://covid-19-tracker-bc6a3.web.app/
+COVID-19 Tracker
 
-# Getting Started with Create React App
+A React-based web application that provides real-time COVID-19 statistics globally and for individual countries. It fetches live data from a public API and visualizes it using responsive components and charts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌐 Live Demo → covid-19-tracker-bc6a3.web.app
 
-## Available Scripts
+📜 Features
 
-In the project directory, you can run:
+Global Summary: Total confirmed cases, recoveries, and deaths.
 
-### `npm start`
+Country-Specific Data: Search and view stats for any country.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Interactive Charts: Graphical representation of cases over time.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Real-Time Updates: Data fetched from a live COVID-19 API.
 
-### `npm test`
+Responsive Design: Optimized for desktop and mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tech Stack
 
-### `npm run build`
+React.js – UI framework
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Material-UI – Styling and components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Chart.js – Data visualization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Axios / Fetch API – Data fetching
 
-### `npm run eject`
+Public COVID-19 API – Data source (e.g., disease.sh or similar)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📂 Project Structure
+COVID-19-Tracker-master/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── App.js          # Main app logic
+│   ├── App.css         # Global styles
+│   ├── index.js        # React entry point
+│   └── api.js          # API calls
+├── package.json
+└── README.md
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/<your-username>/COVID-19-Tracker.git
+cd COVID-19-Tracker-master
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Install dependencies
+npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Start development server
+npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Then open http://localhost:3000 in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Build for production
+npm run build
 
-### Code Splitting
+🎯 How to Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Launch the app in your browser.
 
-### Analyzing the Bundle Size
+View global stats on the homepage.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Select a country from the dropdown to view its data.
 
-### Making a Progressive Web App
+Check the charts for visual trends over time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📊 Example Metrics
+Metric	Example Value
+Confirmed	120,345,678
+Recovered	95,432,100
+Deaths	2,543,210
+Updated	16-Aug-2025 14:35 UTC
+🤝 Contributing
 
-### Advanced Configuration
+Fork this repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Create a feature branch.
 
-### Deployment
+Commit changes and push.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open a Pull Request.
